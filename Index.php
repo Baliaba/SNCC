@@ -24,7 +24,7 @@
                         <div class="panel-heading">
                             <h3 class="panel-title">
                                 <a class="accordion-toggle" href="#Div_Authentification" data-parent="#Accordeon" data-toggle="collapse"> 
-                                    AUTHENTIFICATION
+                                    AUTHENTIFICATION 2
                                 </a>
                             </h3>
                         </div>
