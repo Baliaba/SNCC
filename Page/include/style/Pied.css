@@ -1,0 +1,11 @@
+#Pied
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 0px;
+}
+#Pied .navbar
+{
+    padding-top: 13px;
+}

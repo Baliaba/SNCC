@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_Gallery
+{
+    border: solid 0px red;
+    min-height: 498px;
+    padding: 0px;
+}
+#Div_Gallery table
+{
+    width:100%;
+}
+#Div_Gallery table img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+#Div_Gallery table tr:first-child td
+{
+    padding: 3px;
+}
+#Div_Gallery h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+#Div_Gallery table td p
+{
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+}

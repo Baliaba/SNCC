@@ -1,0 +1,22 @@
+#Welcome_Zone, #Logout_Zone
+{
+    font-size: 16px;
+    border: solid 0px red;
+    padding: 0px;
+}
+#Welcome_Zone
+{
+    text-align: left;
+}
+#Logout_Zone
+{
+    text-align: right;
+}
+#Welcome_Zone .User_Name
+{
+    font-weight: bold;
+}
+#Btn_Logout{
+    font-weight: bold;
+}
+

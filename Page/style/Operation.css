@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_View .panel .panel-heading h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+#Div_View .panel .panel-heading h3 a
+{
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+#Div_View table tr:nth-child(2) td:last-child label,
+#Div_View table tr:nth-child(3) td:last-child label,
+#Div_View table tr:nth-child(2) td:last-child input,
+#Div_View table tr:nth-child(3) td:last-child input
+{
+    width: 95%;
+    margin-left: 5%;
+}
+#Form_Sos input[type="submit"]
+{
+    margin-top: 5%;
+    font-weight: bold;
+    margin-left: 30%;
+}

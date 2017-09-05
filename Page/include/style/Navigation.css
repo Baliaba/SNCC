@@ -1,0 +1,44 @@
+#Navigation
+{
+    padding: 0px;
+    border: solid 0px red;
+}
+.panel .panel-heading h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+.panel .panel-heading h3 a
+{
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+#Navigation #Div_Navigation
+{
+    min-height: 460px;
+}
+#Navigation #Div_Navigation .panel-body
+{
+    height: 460px;
+    text-transform: uppercase;
+    overflow-y: auto;
+}
+.Icone_Sous_Systeme
+{
+    width: 10%; 
+    text-align: center; 
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.Nom_Sous_Systeme
+{
+    padding-left: 3px;
+    font-weight: bold;
+}
+.Sous_Systeme
+{
+    margin-bottom: 3px;
+}

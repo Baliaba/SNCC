@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#cardre_img
+{
+    width: auto;
+    height: auto;
+}
+#bloc_page
+{
+    margin-top: 5%;
+}
+#bloc_Text div:first-child
+{
+    margin-right:5%;
+    height: 150px;
+}
+#bloc_Text div:last-child
+{
+    margin-top: 2%;
+    margin-right:5%;
+    height: 150px;
+    margin-bottom: 20%;
+}
+#name
+{
+    font-family: comic sans ms;
+    font-size: 0.7em;
+}

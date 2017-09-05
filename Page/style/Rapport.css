@@ -1,0 +1,134 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_Content
+{
+    margin-top: 30px;
+}
+#Div_View
+{
+    margin-bottom: 30px;
+}
+#Div_Content .nav
+{
+    width:100%;
+}
+#Div_Content .tab-content 
+{
+    height: 570px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #fafafa;
+    border-radius: 0px 5px 5px 5px;
+}
+#Div_View .nav-tabs > li a
+{
+    font-weight: bold;
+}
+#Accordeon, #Rapport_Zone
+{
+    margin-top: 15px;
+}
+#Message_Zone
+{
+    margin-top: 12%;
+}
+#Accordeon .panel .panel-heading h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+#Accordeon .panel .panel-heading h3 a
+{
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+#Accordeon form table tr td:first-child input, 
+#Accordeon form table tr td:first-child label,
+#Accordeon form table tr td:first-child textarea,
+#Accordeon form table tr td:first-child select
+{
+    margin-right: 5%;
+    width: 95%;
+}
+
+#Accordeon form table tr td:last-child input, 
+#Accordeon form table tr td:last-child label,
+#Accordeon form table tr td:last-child textarea,
+#Accordeon form table tr td:last-child select
+{
+    margin-left: 5%;
+    width: 95%;
+}
+#Div_CheckList_Sncc form table tr td[colspan="2"] label,
+#Div_CheckList_Sncc form table tr td[colspan="2"] select,
+#Div_CheckList_Sncc form table tr td[colspan="2"] textarea,
+#Div_CheckList_Aps form table tr td[colspan="2"] label,
+#Div_CheckList_Aps form table tr td[colspan="2"] select,
+#Div_CheckList_Aps form table tr td[colspan="2"] textarea
+{
+    width: 100%;
+    margin-left: 0%;
+}
+input[type="submit"], input[type="reset"] 
+{
+    font-weight: bold;
+}
+#Rapport_Zone #Btn_Choose_File
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+#Rapport_Zone input[type="submit"], #Rapport_Zone input[type="reset"] 
+{
+    margin-top: 5%;
+}
+#Message_Zone #Message table
+{
+    width: 100%;
+    font-weight: bold;
+}
+#Message_Zone #Message table td
+{
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    cursor: default;
+}
+#Btn_Check_List_Sncc_New, #Btn_Check_List_Aps_New
+{
+    margin-left: 11%;
+    font-weight: bold;
+}
+#Message_Zone #Message table .glyphicon-ok-sign
+{
+    color: lightgreen;
+}
+#Message_Zone #Message table .glyphicon-remove-sign
+{
+    color: red;
+}
+#CheckList_State
+{
+    border: solid 0px red;
+    margin-top: 10%;
+    padding: 0px;
+}
+#CheckList_State .state
+{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 3px;
+    background-color: rgb(217, 237, 247);
+    padding: 10px 0px 10px 0px;
+    border-radius: 3px 0px 0px 3px;
+    cursor: default;
+}
+#CheckList_State .state .badge
+{
+    cursor: pointer;
+}

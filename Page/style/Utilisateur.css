@@ -1,0 +1,101 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_View
+{
+    border: solid 0px red;
+    min-height: 500px;
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Div_View #Table_Zone
+{
+    border: solid 0px red;
+    min-height: 400px;
+    max-height: 400px;
+    margin-top: 5px;
+}
+#Div_View #Table_Zone .col-md-12
+{
+    padding-right: 0px;
+}
+#Div_View table
+{
+    width:100%;
+}
+#Table_Zone tr:hover, #Table_Zone tr.actived
+{
+    background-color: #fafafa;
+    cursor:pointer;
+}
+.panel .panel-heading h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+.panel .panel-heading h3 a
+{
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+#Poste_Zone tr:hover, #Groupe_Zone tr:hover
+{
+    background-color: rgb(217, 237, 247);
+    cursor:pointer;
+}
+#Div_View table th
+{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(217, 237, 247);
+    cursor: default;
+}
+#Div_View table td
+{
+   text-align: center;
+}
+#Div_View table td:first-child
+{
+    font-weight: bold;
+}
+#Div_View table td:last-child, #Poste_Zone table td:last-child
+{
+    padding: 2px 0px 2px 0px;
+}
+#Table_Zone .Delete_User, #Poste_Zone .Delete_Poste, .Delete_Groupe
+{
+    padding-top: 8px;
+    cursor : pointer;
+}
+#Groupe_User
+{
+    border-radius: 3px;
+}
+#Poste_Zone
+{
+    border: solid 0px black;
+}
+#Poste_Zone .panel-body, #Groupe_Zone .panel-body
+{
+    min-height: 400px;
+}
+#Div_Groupe table, #Div_Poste table
+{
+    width:100%; 
+    margin-top: 20px;
+}
+#Div_Groupe table th, #Div_Poste table th
+{
+    background-color: black; 
+    color:white;
+}
+#Div_Groupe input[type="submit"], #Div_Poste input[type="submit"]
+{
+    font-weight: bold;
+    margin-left: 33%;
+    margin-top: 5px;
+}

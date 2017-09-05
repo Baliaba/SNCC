@@ -1,0 +1,87 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_View
+{
+    margin: 30px 0px 30px 0px;
+}
+#Div_View .nav
+{
+    width:100%;
+}
+#Div_View .tab-content 
+{
+    height: 570px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #fafafa;
+    border-radius: 0px 5px 5px 5px;
+}
+#Div_View .nav-tabs > li a
+{
+    font-weight: bold;
+}
+#Suivi_Zone, #Rapport_Zone
+{
+    margin-top: 15px;
+}
+#Message_Zone
+{
+    margin-top: 12%;
+}
+#Suivi_Zone form table tr td:first-child input, 
+#Suivi_Zone form table tr td:first-child label,
+#Suivi_Zone form table tr td:first-child textarea,
+#Suivi_Zone form table tr td:first-child select
+{
+    margin-right: 5%;
+    width: 95%;
+}
+
+#Suivi_Zone form table tr td:last-child input, 
+#Suivi_Zone form table tr td:last-child label,
+#Suivi_Zone form table tr td:last-child textarea,
+#Suivi_Zone form table tr td:last-child select
+{
+    margin-left: 5%;
+    width: 95%;
+}
+input[type="submit"], input[type="reset"] 
+{
+    font-weight: bold;
+}
+#Rapport_Zone #Btn_Choose_File
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+#Suivi_Zone input[type="submit"], #Suivi_Zone input[type="reset"] 
+{
+    margin-top: 2%;
+}
+#Rapport_Zone input[type="submit"], #Rapport_Zone input[type="reset"] 
+{
+    margin-top: 5%;
+}
+#Message_Zone #Message table
+{
+    width: 100%;
+    font-weight: bold;
+}
+#Message_Zone #Message table td
+{
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    cursor: default;
+}
+#Message_Zone #Message table .glyphicon-ok-sign
+{
+    color: lightgreen;
+}
+#Message_Zone #Message table .glyphicon-remove-sign
+{
+    color: red;
+}

@@ -1,0 +1,64 @@
+body
+{
+    background-color: rgb(243, 244, 245);
+}
+#Div_View
+{
+    border: solid 0px red;
+    min-height: 448px;
+}
+#Div_View #Table_Zone
+{
+    border: solid 0px red;
+    border-bottom: solid 2px rgb(217, 237, 247);
+    height: 413px;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+#Div_View #Table_Zone .col-md-12
+{
+    padding-right: 0px;
+}
+#Div_View table
+{
+    width:100%;
+}
+#Table_Zone tr:hover, #Table_Zone tr.actived
+{
+    background-color: #fafafa;
+    cursor:pointer;
+}
+#Div_View table th
+{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(217, 237, 247);
+    cursor: default;
+}
+#Div_View table td
+{
+   text-align: center;
+}
+#Div_View table td .Mini_Image
+{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+#Div_View table td:last-child
+{
+    padding: 2px 0px 2px 0px;
+}
+#Action_Zone
+{
+    margin-top: 17px;
+}
+#Action_Zone button
+{
+    font-weight: bold;
+}
+#Table_Zone .Detail_CheckList
+{
+    padding-top: 8px;
+    cursor : pointer;
+}

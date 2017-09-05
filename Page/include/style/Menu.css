@@ -1,0 +1,31 @@
+#Menu
+{
+    padding: 0px;
+}
+#Menu ul.nav
+{
+    width: 100%;
+    font-weight: bold;
+    border-radius: 1px;
+}
+#Menu ul
+{
+    background-color: rgb(217, 237, 247);
+}
+#Menu ul li a:focus, #Menu ul li.active > a
+{
+    color: white;
+}
+#Menu ul li a
+{
+    color: rgb(52, 73, 94);
+    font-weight: bold;
+}
+#Menu_Rapport
+{
+    width: 200px;
+}
+#Menu_Action
+{
+    width: 173px;
+}
